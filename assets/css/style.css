@@ -30,6 +30,15 @@ header {
   color: hsl(206, 17%, 28%);
 }
 
+textarea {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  block-size: 200px;
+  width:100%;
+  font-size: xx-large;
+}
+
 .card {
   background-color: hsl(0, 0%, 100%);
   border-radius: 5px;
@@ -52,6 +61,7 @@ header {
 
 .card-body {
   min-height: 100px;
+  
 }
 
 .card-footer {
@@ -88,7 +98,7 @@ header {
   cursor: pointer;
 }
 
-button[disabled] {
+button {
   cursor: default;
   background: #c0c7cf;
 }
