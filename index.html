@@ -26,11 +26,13 @@
         </div>
         <div class="card-footer">
             <div class="container">
-                   
                 <div class="settings">
                     <div class="setting">
+                      <div class="slidecontainer">
                         <label>Password length</label>
-                        <input type="number" id="length" min='4' max='20' value='20' />
+                        <span id="slider_value2" class="slider" style="color:red;font-weight:bold;"></span><br>
+                        0<input width="400" type="range" id="length" name="length" min="8" max="128" value="47" onchange=""show_value(this.value);>128</div>
+                        <p>* Value: <span id="demo"></span>*</p>
                     </div>
                     <div class="setting">
                         <label>Include uppercase letters</label> 

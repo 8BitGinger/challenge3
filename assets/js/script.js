@@ -7,6 +7,8 @@ const lowercaseEl = document.getElementById('lowercase');
 const numbersEl = document.getElementById('numbers');
 const symbolsEl = document.getElementById('symbols');
 const generateEl = document.getElementById('generate');
+var slider = document.getElementById('length');
+var output = document.getElementById('demo');
 
 //this puts all of our get functions into one functions we can use later in our loop.
 const randomFunc = {
@@ -68,4 +70,11 @@ function getRandomNumber() {
 function getRandomSymbol() {
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
+}
+//slider to show numebrs
+
+output.innerHTML = slider.value;
+
+slider.oninput = function() {
+  output.innerHTML = this.value;
 }

@@ -1,3 +1,5 @@
+
+
 *,
 *::before,
 *::after {
@@ -37,6 +39,7 @@ textarea {
   block-size: 200px;
   width:100%;
   font-size: xx-large;
+  border: 2px dashed rgb(189, 187, 187);]
 }
 
 .card {
@@ -126,6 +129,14 @@ button {
   border-radius: 6px;
   resize: none;
   overflow: hidden;
+}
+
+.setting p {
+  color: red;
+  font-style: italic;
+  font-weight: 200;
+  font-size:small;
+  margin: 0;
 }
 
 @media (max-width: 690px) {
