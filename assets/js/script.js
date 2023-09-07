@@ -30,7 +30,7 @@ generate.addEventListener('click', () => {
 	resultEl.innerText = generatePassword(hasLower, hasUpper, hasNumber, hasSymbol, length);
 });
 
-//This function generates the password
+//This function generates the password from the info gathered in the Event listener and then slices to appropriate length
 function generatePassword(lower, upper, number, symbol, length) {
 	let generatedPassword = '';
 	const typesCount = lower + upper + number + symbol;
@@ -54,7 +54,7 @@ function generatePassword(lower, upper, number, symbol, length) {
 	return finalPassword;
 }
 
-// these functions return the strings we need to create the password.
+// these functions return the random leters, numbers, and symbols we use to generate password
 function getRandomLower() {
 	return String.fromCharCode(Math.floor(Math.random() * 26) + 97);
 }
@@ -71,7 +71,7 @@ function getRandomSymbol() {
 	const symbols = '!@#$%^&*(){}[]=<>/,.'
 	return symbols[Math.floor(Math.random() * symbols.length)];
 }
-//slider to show numebrs
+//slider to show number underneath.  
 
 output.innerHTML = slider.value;
 
