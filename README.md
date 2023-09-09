@@ -9,6 +9,11 @@ Description
 This is a random password generator.  The point of this challenge was to figure out how to both define variables and declare functions.  Using those to gather information from the HTML to assemble a password with certain conditions.  It took me many tutorials before I finally understood it so I went ahead and decided to try the slider instead of the number box just for fun.  I think it looks much better, but then brought some other challenges.  It was a difficult project but it was very informational and I can't wait to see what I can do with this knowledge.    
 
 
+Links:
+link to deployed (live) application: 
+link to repo: https://github.com/8BitGinger/challenge3.git
+link to portfolio: https://8bitginger.github.io/challengetwo/
+
 Visuals
 INCLUDE SCREENSHOT
 
