@@ -10,9 +10,9 @@ This is a random password generator.  The point of this challenge was to figure 
 
 
 Links:
-link to deployed (live) application: https://8bitginger.github.io/challenge3/
-link to repo: https://github.com/8BitGinger/challenge3.git
-link to portfolio: https://8bitginger.github.io/challengetwo/
+link to deployed (live) application: https://8bitginger.github.io/passwordGenerator/
+link to repo: https://github.com/8BitGinger/passwordGenerator.git
+link to portfolio: https://8bitginger.github.io/studentPortfolio/
 
 Visuals
 INCLUDE SCREENSHOT
