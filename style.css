@@ -4,6 +4,7 @@
 *::before,
 *::after {
   box-sizing: border-box;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 html,
@@ -16,7 +17,9 @@ body,
 
 body {
   font-family: sans-serif;
-  background-color: #f9fbfd;
+  background-image: url(/—Pngtree—flat\ dark\ programming\ code\ scrambling_990720.png);
+  background-size: cover;
+  color: white;
 }
 
 .wrapper {
@@ -27,29 +30,46 @@ body {
 
 header {
   text-align: center;
-  padding: 20px;
+  padding: 10px;
+  margin: 0;
   padding-top: 0px;
-  color: hsl(206, 17%, 28%);
+  
 }
 
 textarea {
   display: flex;
+  background-color: rgb(34, 205, 8);
   flex-wrap: wrap;
   text-align: center;
-  block-size: 200px;
+  block-size: 100px;
   width:100%;
   font-size: xx-large;
-  border: 2px dashed rgb(189, 187, 187);]
+  border: 2px dashed rgb(5, 218, 255);
+  
+  color: rgb(0, 0, 0);
+}
+
+h1 {
+  color: white;
+  font-size: 80px;
+}
+
+h2 {
+  color:rgb(4, 255, 4);
+  font-size: 40px;
+  
 }
 
 .card {
-  background-color: hsl(0, 0%, 100%);
-  border-radius: 5px;
-  border-width: 1px;
+background: linear-gradient(rgb(55, 55, 55), black, rgb(55, 55, 55));
+border: 3px solid rgb(13, 235, 91);
+  border-radius: 15px;
+  
   box-shadow: rgba(0, 0, 0, 0.15) 0px 2px 8px 0px;
-  color: hsl(206, 17%, 28%);
+  color: color: hsl(186, 97%, 50%);
   font-size: 18px;
   margin: 0 auto;
+  margin-top: 50px;
   max-width: 800px;
   padding: 30px 40px;
 }
@@ -87,7 +107,7 @@ textarea {
 
 .btn {
   border: none;
-  background-color: hsl(360, 91%, 36%);
+  background-color: rgb(17, 177, 73);
   border-radius: 25px;
   box-shadow: rgba(0, 0, 0, 0.1) 0px 1px 6px 0px rgba(0, 0, 0, 0.2) 0px 1px 1px
     0px;
@@ -101,6 +121,10 @@ textarea {
   cursor: pointer;
 }
 
+.setting {
+  color:rgb(4, 255, 4);
+}
+
 button {
   cursor: default;
   background: #c0c7cf;
@@ -109,6 +133,8 @@ button {
 .float-right {
   float: right;
 }
+
+
 
 #password {
   -webkit-appearance: none;
@@ -125,7 +151,7 @@ button {
   text-align: center;
   margin-top: 10px;
   margin-bottom: 10px;
-  border: 2px dashed #c0c7cf;
+  border: 2px dashed #c0cfc1;
   border-radius: 6px;
   resize: none;
   overflow: hidden;
