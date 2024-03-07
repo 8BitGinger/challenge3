@@ -1,45 +1,74 @@
-# Random Password Generator
+<a id="badges"></a>
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
+# Password Generator
 
+## Description
 
-Name
-Challenge 3 - Random Password Generator
+A simple app designed to generate a random pass word using JavaScript, For Loops, and Dom Manipulation.
 
-Description
-This is a random password generator.  The point of this challenge was to figure out how to both define variables and declare functions.  Using those to gather information from the HTML to assemble a password with certain conditions.  It took me many tutorials before I finally understood it so I went ahead and decided to try the slider instead of the number box just for fun.  I think it looks much better, but then brought some other challenges.  It was a difficult project but it was very informational and I can't wait to see what I can do with this knowledge.    
+## Table of Contents
 
+1. [Usage](#usage)
+1. [Screenshots](#screenshot)
+1. [License](#license)
+1. [Links](#links)
+1. [Questions](#support)
 
-Links:
-link to deployed (live) application: https://8bitginger.github.io/passwordGenerator/
-link to repo: https://github.com/8BitGinger/passwordGenerator.git
-link to portfolio: https://8bitginger.github.io/studentPortfolio/
+---
 
-Visuals
-INCLUDE SCREENSHOT
+<a id="usage"></a>
 
+## Usage
 
-Support
-RYAN.FANN@gmail.com
+Visit Deployed Page. Select parameters. Click Generate Password. Copy your new password!
 
-Roadmap
-Would love to make the visuals more appealing with CSS, but didn't want to interfere with the project parameters.  After challenge has been graded I am definitely going to play around with it some more.  
+<a id="screenshot"></a>
 
+## Screenshots
 
+#### PC View
 
-Authors and acknowledgment
-Links I used for help:
-For the Generate of Random Passwords I used:
+![screenshot](./assets/screenshot-psgen.png)
 
-https://codepen.io/FlorinPop17/pen/BaBePej 
+#### Mobile View
 
-And many, many articles on W3 schools and MDN docs
+![screenshot](./assets/screenshot-psgen-mobile.png)
 
-I used these tutorials help with the Slider:
-https://www.w3schools.com/howto/howto_js_rangeslider.asp
+---
 
-and MDN docs to get the value to show up properly.  I also notated everything showing my understanding.  
+<a id="license"></a>
 
-License
-MIT
+## License
 
-Project status
+[MIT](url)
+
+---
+
+<a id="links"></a>
+
+## Links
+
+<div align="center">
+
+### [Repo Link](https://github.com/8BitGinger/passwordGenerator)
+
+### [Deployed Link](https://8bitginger.github.io/passwordGenerator/)
+
+</div>
+
+---
+
+<a id="support"></a>
+
+## Questions
+
+Reach out for Questions or Support here:
+
+### Email:
+
+ryan.fann@gmail.com
+
+#### GitHub Username:
+
+[8BitGinger](https://github.com/8BitGinger)
