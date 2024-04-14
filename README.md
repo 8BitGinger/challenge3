@@ -3,6 +3,8 @@
 
 # Password Generator
 
+![screenshot](./assets/passwordGenProject.jpg)
+
 ## Description
 
 A simple app designed to generate a random pass word using JavaScript, For Loops, and Dom Manipulation.
